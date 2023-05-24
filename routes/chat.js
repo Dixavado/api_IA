@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { Configuration, OpenAIApi } = require("openai");
 require('dotenv').config();
-
+ 
 const apiKey = process.env.OPENAI_API_KEY;
 
 // Armazenamento temporário das conversas
